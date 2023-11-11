@@ -1,0 +1,36 @@
+input[type=message], input[type=email], input[type=text], textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 30px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+
+  button[type=submit] {
+    background-color: white ;
+    color: black ;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius: 30px ;
+    transition: transform .4s ;
+  }
+
+  button:hover {
+    transform: scale(1.2);
+  }
+  
+
+  button[type=submit]:hover {
+    background-color: blue ;
+  }
+  
+  
+  #MainMenu {visibility: hidden;}
+  footer {visibility: hidden;}
+  header {visibility: hidden;}
